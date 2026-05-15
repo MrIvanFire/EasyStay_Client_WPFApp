@@ -1,0 +1,60 @@
+# Visual Studio
+.vs/
+bin/
+obj/
+Debug/
+Release/
+*.user
+*.suo
+*.cache
+*.pidb
+*.log
+*.tmp
+*.temp
+*.nupkg
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Secret files 
+*.json
+easystorynotifications-firebase-adminsdk-fbsvc-3feca154db.json
+
+# Backup files
+*.bak
+*.orig
+
+# IDE files
+*.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# NuGet packages
+packages/
+*.nupkg
+
+# Publish output
+*.pubxml
+/publish/
+
+# Crash reports
+*.dmp
+*.mdmp
+
+# Local configuration files
+appsettings.Development.json
+appsettings.Local.json

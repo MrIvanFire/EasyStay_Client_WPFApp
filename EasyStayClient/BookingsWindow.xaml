@@ -1,0 +1,159 @@
+﻿<Window x:Class="EasyStayClient.BookingsWindow"
+
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+
+        Title="Управление Бронью" 
+
+        Width="1440" Height="1024"
+
+        Background="White"
+
+        WindowStartupLocation="CenterScreen">
+
+
+    <Grid>
+
+        <Button x:Name="BtnBack" 
+
+                Content="Вернуться в главное меню"
+
+                HorizontalAlignment="Left"
+
+                Margin="51,42,0,0"
+
+                VerticalAlignment="Top"
+
+                FontSize="44"
+
+                FontFamily="Archivo Black"
+
+                Foreground="#767676"
+
+                Background="Transparent"
+
+                BorderBrush="Transparent"
+
+                Cursor="Hand" 
+
+                Click="BtnBack_Click"/>
+
+
+        <TextBlock Text="Управление Бронью" 
+
+                   FontSize="89" 
+
+                   FontFamily="Anek Latin" 
+
+                   Foreground="Black"
+
+                   HorizontalAlignment="Left"
+
+                   Margin="98,161,0,0"
+
+                   VerticalAlignment="Top"/>
+
+
+        <TextBlock Text="Id брони" 
+
+                   FontSize="57" 
+
+                   FontFamily="Anek Latin" 
+
+                   Foreground="Black"
+
+                   HorizontalAlignment="Left"
+
+                   Margin="98,335,0,0"
+
+                   VerticalAlignment="Top"/>
+
+
+        <TextBox x:Name="TxtBookingId" 
+
+                 Width="573" Height="74"
+
+                 HorizontalAlignment="Left"
+
+                 Margin="98,403,0,0"
+
+                 VerticalAlignment="Top"
+
+                 Background="White"
+
+                 BorderBrush="Black"
+
+                 BorderThickness="2"
+
+                 FontSize="24"
+
+                 VerticalContentAlignment="Center"
+
+                 Padding="10,0,0,0"/>
+
+
+        <Button x:Name="BtnConfirmBooking" 
+
+                Width="801" Height="116"
+
+                HorizontalAlignment="Left"
+
+                Margin="98,571,0,0"
+
+                VerticalAlignment="Top"
+
+                Background="#D9D9D9"
+
+                BorderBrush="#D9D9D9"
+
+                Cursor="Hand"
+
+                Click="BtnConfirmBooking_Click">
+
+            <TextBlock Text="Подтвердить бронь" 
+
+                       FontSize="54" 
+
+                       FontFamily="Archivo Black" 
+
+                       Foreground="Black"
+
+                       TextAlignment="Center"/>
+
+        </Button>
+
+
+        <Button x:Name="BtnCancelBooking" 
+
+                Width="801" Height="116"
+
+                HorizontalAlignment="Left"
+
+                Margin="98,735,0,0"
+
+                VerticalAlignment="Top"
+
+                Background="#D9D9D9"
+
+                BorderBrush="#D9D9D9"
+
+                Cursor="Hand"
+
+                Click="BtnCancelBooking_Click">
+
+            <TextBlock Text="Отменить бронь" 
+
+                       FontSize="54" 
+
+                       FontFamily="Archivo Black" 
+
+                       Foreground="Black"
+
+                       TextAlignment="Center"/>
+
+        </Button>
+
+    </Grid>
+
+</Window>
